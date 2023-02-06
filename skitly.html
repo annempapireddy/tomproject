@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> h1{
+        background: lightgrey;
+        color: rgb(19, 1, 1);
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        width: auto;         
+    }
+.box
+{
+text-align: center;
+background: rgb(202, 6, 176);
+border-radius: 5px;
+box-shadow: 0px 5px 7px black ;
+position: sticky;
+top: 0px;
+}
+.box ul{
+display:inline-flex;
+list-style: none;
+}
+.box ul li{
+width: 100px;
+height: 30px;
+padding: 5px;
+margin: 20px;
+
+}
+.box ul li:hover{
+background: rgb(3, 54, 54);
+border-radius: 10px;
+
+}
+a{
+text-decoration: none;
+color: whitesmoke;
+}
+.nani{
+display: none;
+}
+.box ul li:hover .nani{
+display: block;
+margin-top: 15px;
+margin-left: -15px;
+position: absolute;
+background:blue;
+border-radius: 10px;
+box-shadow: 0px 5px 8px black;
+
+}
+
+</style>
+</head>
+<body>
+    <h1>TASK TWO </h1>
+   
+    <div class="box">
+    <ul> 
+    <li><details><summary>HOME</summary><p>Lorem ipsum dolor sit amet consectetur.</p></details></li>
+    <li><a href="#"> SERVICE</a> 
+    <div class="nani"> 
+<ul>
+    <li><a href="https://www.facebook.com/login/">MARKETING</a></li>
+    <li><a href="https://www.instagram.com/accounts/login/">WEB DESGIN</a></li>
+    <li><a href="https://www.youtube.com/">WEB DEV</a></li>
+</ul>
+    </div></li>
+    <li><a href="#">CONTACT</a></li>
+    <li><a href="#">ABOUT US</a>  </li> </ul>
+
+    </div>
+
+</body>
+</html>
